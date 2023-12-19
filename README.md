@@ -8,11 +8,9 @@ Anomaly detection algorithms attempt to find instances that deviate from the exp
 ## Contents and usage
 
 The folder contains:
-- ssif.py, the file containing the model proposed in this paper;
+- SSIF.py, the file containing the model proposed in this paper;
 - Notebook.ipynb, a notebook showing how to train SSIF and compute the anomaly scores on an artificial dataset;
-- run_experiments.py, a function used to get the experimental results on benchmark datasets;
-- SSAD.py, DevNet.py, DeepSAD_folder, REPEN.py, HIF.py, files implementing the baselines used for the comparison;
-- Experiments.ipynb, a notebook showing how to run the experiments.
+- Supplement.pdf, a pdf with the supplementary material used for the paper.
 
 ## Semi-Supervised Isolation Forest
 
