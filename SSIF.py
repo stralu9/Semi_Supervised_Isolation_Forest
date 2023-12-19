@@ -1,7 +1,5 @@
 import numpy as np
 import random as rn
-import threading
-from multiprocessing import Pool
 from joblib import Parallel, delayed
 import scipy
 import warnings
