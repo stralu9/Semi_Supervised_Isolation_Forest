@@ -8,8 +8,6 @@ Anomaly detection algorithms attempt to find instances that deviate from the exp
 
 The folder contains:
 - ssif.py, the file containing the model proposed in this paper;
-- maxssif.py, the file containing the MaxSSIF model;
-- ssif_ablation1.py, ssif_ablation2.py, ssif_ablation3.py, ssif_ablation4.py, the files containing the models for the ablation study;
 - Notebook.ipynb, a notebook showing how to train SSIF and compute the anomaly scores on an artificial dataset;
 - run_experiments.py, a function used to get the experimental results on benchmark datasets;
 - SSAD.py, DevNet.py, DeepSAD_folder, REPEN.py, HIF.py, files implementing the baselines used for the comparison;
@@ -43,7 +41,3 @@ This folder requires the following python packages to be used:
 - [Numpy](http://www.numpy.org)
 - [Scipy](http://www.scipy.org)
 - [Pandas](https://pandas.pydata.org/)
-- [Matplot](https://matplotlib.org)
-- [sklearn](https://scikit-learn.org/stable/)
-- [anomatools](https://github.com/Vincent-Vercruyssen/anomatools)
-- [PyOD](https://github.com/yzhao062/pyod)
