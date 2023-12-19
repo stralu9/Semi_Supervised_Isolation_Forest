@@ -1,8 +1,9 @@
-# Semi-Supervised Isolation Forest for Anomaly Detection
+# SemiSupervisedIsolationForest
+This GitHub repository contains the SSIF algorithm, presented in the paper titled Semi-Supervised Isolation Forest for Anomaly Detection
 
 ## Abstract
 
-Anomaly detection algorithms attempt to find instances that deviate from the expected behavior. Because this is often tackled as an unsupervised task, anomaly detection models rely on exploiting intuitions about what constitutes anomalous behavior. These typically take the form of data-driven heuristics that measure the anomalousness of each instance. However, the unsupervised detectors are limited by the validity of their intuition. Because these are not universally true, one can improve the detectors’ performance by using a semi-supervised approach that exploits a few labeled instances. This paper proposes a novel semi-supervised tree ensemble based anomaly detection framework. We compare our proposed approach to several baselines and show that it performs comparably well to the best state-of-the-art neural networks on 15 benchmark datasets.
+Anomaly detection algorithms attempt to find instances that deviate from the expected behavior. Because this is often tackled as an unsupervised task, anomaly detection models rely on exploiting intuitions about what constitutes anomalous behavior. These typically take the form of data-driven heuristics that measure the anomalousness of each instance. However, the unsupervised detectors are limited by the validity of their intuition. Because these are not universally true, one can improve the detectors’ performance by using a semi-supervised approach that exploits a few labeled instances. This paper proposes a novel semi-supervised tree ensemble based anomaly detection framework. We compare our proposed approach to several baselines and show that it performs comparably well to the best state-of-the-art neural networks on 6 real-world and 14 benchmark datasets.
 
 ## Contents and usage
 
