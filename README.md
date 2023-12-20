@@ -39,4 +39,3 @@ This folder requires the following python packages to be used:
 - [Python 3](http://www.python.org)
 - [Numpy](http://www.numpy.org)
 - [Scipy](http://www.scipy.org)
-- [Pandas](https://pandas.pydata.org/)
