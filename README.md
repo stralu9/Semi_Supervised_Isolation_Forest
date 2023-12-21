@@ -20,7 +20,7 @@ Given a training dataset **X_train** with training labels **Y_train**(where y=0 
 from ssif import SSIF
 from sklearn.metrics import roc_auc_score
 
-# Train the model (for instance, here we use kNNO)
+# Train the model
 detector = SSIF(X_train,Y_train)
 
 # Compute the anomaly scores in the training set
