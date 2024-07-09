@@ -1,4 +1,4 @@
-# SemiSupervisedIsolationForestForAnomalyDetection
+# SSIF - Semi-Supervised Isolation Forest
 This GitHub repository contains the SSIF algorithm, presented in the paper titled Semi-Supervised Isolation Forest for Anomaly Detection
 
 ## Abstract
