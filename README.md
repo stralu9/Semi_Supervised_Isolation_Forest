@@ -21,16 +21,17 @@ from ssif import SSIF
 from sklearn.metrics import roc_auc_score
 
 # Train the model
-detector = SSIF(X_train,Y_train)
+detector = SSIF()
+detector.fit(Xtrain, ytrain)
 
-# Compute the anomaly scores in the training set
+# Compute the anomaly scores for the training set
 train_scores_ssif = detector.compute_anomaly_scores(X_train)
 
-# Compute the anomaly scores in the test set
+# Compute the anomaly scores for the test set
 test_scores_ssif = detector.compute_anomaly_scores(X_test)
 
-# Estimate the AUROC performance of the model
-auc_performance = roc_auc_score(Y_test,test_scores_ssif)
+# Compute the AUROC performance of the model
+auc_performance = roc_auc_score(Y_test, test_scores_ssif)
 ```
 
 ## Dependencies
