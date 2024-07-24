@@ -10,7 +10,7 @@ Anomaly detection algorithms attempt to find instances that deviate from the exp
 The folder contains:
 - SSIF.py, the file containing the model proposed in this paper;
 - Notebook.ipynb, a notebook showing how to train SSIF and compute the anomaly scores on an artificial dataset;
-- Supplement.pdf, a pdf with the supplementary material used for the paper.
+- Supplement.pdf, a pdf with the paper's supplementary material.
 
 ## Semi-Supervised Isolation Forest
 
